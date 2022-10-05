@@ -1,0 +1,33 @@
+@import url('navbar.css');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.hr{
+    border: 0; 
+    height: 5px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+    width: 50%; 
+    margin: 5% 25% 5% 25% !important;
+}
+
+ /* Carousel picture */
+.carousel-item{
+    max-height: 800px;
+}
+
+/* Cards */
+.card:hover{
+    box-shadow: 1px 0px 33px -4px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 1px 0px 33px -4px rgba(0,0,0,0.74);
+    -moz-box-shadow: 1px 0px 33px -4px rgba(0,0,0,0.74);
+    transition: 0.5s;
+}
+.card{
+    border-radius: 5px;
+}

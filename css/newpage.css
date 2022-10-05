@@ -1,0 +1,24 @@
+#page {
+    margin-left: 180px;
+}
+#maincontent {
+    float: right;
+    width: 100%;
+    margin-left: -300px;
+}
+#menuleftcontent{
+    float: left;
+    width: 200px;
+    margin-left: -200px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #CCCCCC;
+}
+#clearingdiv {
+    clear: both;
+}
+.navbar-dark{
+    font-size: 24px;
+    font-weight: 1000;
+    font-family: 'Josefin sans', sans-serif;
+}

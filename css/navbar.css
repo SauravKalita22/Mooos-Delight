@@ -1,0 +1,26 @@
+/* Navigation bar */
+.navbar-light{
+    font-size: 24px;
+    font-weight: 1000;
+    font-family: 'Josefin sans', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 24px;
+    font-weight: 1000;
+    font-family: 'Josefin sans', sans-serif;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0) !important;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+  }
+  
+.navbar-dark {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: #ffffff !important;
+}
+  
+.navbar-collapse, .navbar-nav, .nav-item {
+    color: inherit !important;
+}
